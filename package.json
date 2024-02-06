@@ -1,0 +1,16 @@
+{
+  "name": "assign-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "styler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ndoe": "^0.0.0",
+    "node": "^21.6.1"
+  }
+}

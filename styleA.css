@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcf3e3;
+    font-family: "Arial", sans-serif;
+    overflow-x: hidden; 
+    zoom: 1;
+}
+
+body h1{
+    color: rgb(111, 17, 17);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    outline: solid rgb(3, 3, 3);
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+table th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    background-color: #d0cebe;
+    padding: 20px;
+}
+
+#o{
+    font-size: 100px;
+    color: orange;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 2px;
+}
+#s{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: orange;
+    -webkit-text-stroke-width: 2px;
+}
+#u{
+    font-size: 100px;
+    color: rgb(131, 131, 130);
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+form button{
+    background-color: #d0cebe;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: Arial;
+}
+
+form button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+a:visited, a:link{
+    color: #ff0073;
+}
